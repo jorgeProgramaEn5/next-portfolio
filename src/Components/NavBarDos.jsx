@@ -61,7 +61,7 @@ export function NavBarDos() {
         <Image 
           src={toggle? close : menu} 
           alt="menu"
-          className=' mt-1 sm:mt-3 mr-4 w-[20px] h-[20px] object-contain'
+          className=' mt-1 sm:mt-3 mr-4 w-[20px] h-[20px] object-contain cursor-pointer'
           onClick={()=> setToggle((prev)=>!prev)}
         />
 
