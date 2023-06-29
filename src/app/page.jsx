@@ -1,3 +1,5 @@
+import '../Styles/tailwind.css'
+
 import {NavBarDos} from '@/Components/NavBarDos';
 // import { Banner } from '@/src/Components/Banner';
 // import { Skills } from '@/src/Components/Skills';
