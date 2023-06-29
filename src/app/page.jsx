@@ -1,4 +1,4 @@
-import '../Styles/tailwind.css'
+// import '../Styles/tailwind.css'
 
 import {NavBarDos} from '@/Components/NavBarDos';
 // import { Banner } from '@/src/Components/Banner';
