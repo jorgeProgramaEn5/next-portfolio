@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <main className=" w-screen">
       <NavBarDos />
-      <h1>Hola Vercel</h1>
+      {/* <h1>Hola Vercel</h1> */}
       {/* <Banner /> */}
       {/* <Skills /> */}
       {/* <Projects /> */}
