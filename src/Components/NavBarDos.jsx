@@ -34,9 +34,9 @@ export function NavBarDos() {
   return (
     
     <nav 
-      className={`flex justify-between items-center w-full bg-primary-100 transition duration-[320] ease-in-out py-2 px-3 fixed z-50 ${scrolled ? 'py-0 px-4' : ''}`}     //varia el scrolled aqui
+      className={` flex justify-between items-center w-full max-h-[50vh] bg-primary-100 transition-all duration-[0.5s] ease-in-out py-6 px-3 fixed top-0 z-50 ${scrolled ? 'pb-1 md:pt-1' : ''}`}     //varia el scrolled aqui
     >
-      <div className=' w-1/4 md:w-1/5 lg:w-1/5 xl:w-1/12'>
+      <div className=' ml-[25px] w-1/4 md:w-1/5 lg:w-1/5 xl:w-[14%]'>
         <Image src={logo} alt='logo'/>
       </div>
 

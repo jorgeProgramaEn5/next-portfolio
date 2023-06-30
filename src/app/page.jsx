@@ -1,18 +1,18 @@
 // import '../Styles/tailwind.css'
 
 import {NavBarDos} from '@/Components/NavBarDos';
-// import { Banner } from '@/src/Components/Banner';
-// import { Skills } from '@/src/Components/Skills';
-// import { Projects  } from '@/src/Components/Projects';
-// import { ContactEmailjs } from '@/src/Components/ContactEmailjs';
-// import { Footer } from '@/src/Components/Footer';
+import { Banner } from '@/Components/Banner';
+// import { Skills } from '@/Components/Skills';
+// import { Projects  } from '@/Components/Projects';
+// import { ContactEmailjs } from '@/Components/ContactEmailjs';
+// import { Footer } from '@/Components/Footer';
 
 export default function Home() {
   return (
     <main className=" w-screen">
       <NavBarDos />
       {/* <h1>Hola Vercel</h1> */}
-      {/* <Banner /> */}
+      <Banner />
       {/* <Skills /> */}
       {/* <Projects /> */}
       {/* <ContactEmailjs /> */}

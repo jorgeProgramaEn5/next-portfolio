@@ -1,7 +1,7 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Playfair_Display } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const playDisplay = Playfair_Display({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Next-Portfolio',
@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={playDisplay.className}>
         {children}
       </body>
     </html>
