@@ -34,9 +34,9 @@ export function NavBarDos() {
   return (
     
     <nav 
-      className={`flex justify-between w-full bg-primary-100 transition duration-[320] ease-in-out py-2 px-3 fixed z-50 ${scrolled ? 'py-0 px-4' : ''}`}     //varia el scrolled aqui
+      className={`flex justify-between items-center w-full bg-primary-100 transition duration-[320] ease-in-out py-2 px-3 fixed z-50 ${scrolled ? 'py-0 px-4' : ''}`}     //varia el scrolled aqui
     >
-      <div className=' w-1/6 md:w-1/5 lg:w-1/5'>
+      <div className=' w-1/4 md:w-1/5 lg:w-1/5 xl:w-1/12'>
         <Image src={logo} alt='logo'/>
       </div>
 
@@ -61,7 +61,7 @@ export function NavBarDos() {
         <Image 
           src={toggle? close : menu} 
           alt="menu"
-          className=' mt-1 sm:mt-3 mr-4 w-[20px] h-[20px] object-contain cursor-pointer'
+          className='mr-4 w-[20px] h-[20px] object-contain cursor-pointer'
           onClick={()=> setToggle((prev)=>!prev)}
         />
 
