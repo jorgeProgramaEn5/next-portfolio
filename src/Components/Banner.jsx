@@ -62,7 +62,7 @@ export const Banner = ()=>{
             <div className='col-span-2 flex flex-col justify-center items-start pl-2 md:pr-[140px]'>
                 <div className='text-center md:text-start'>
                   <span className='inline-block font-semibold md:font-bold tracking-[0.8px] hover:tracking-[0.9px] text-secondary-100 border border-secondary-100 rounded-lg text-lg mb-4 px-[15px] py-[10px] md:px-4 md:py-2'>
-                    Welcome to my Portfolio
+                    Welcome to my Portfolio.
                   </span>
                   <h1 className='text-rotate block text-[22px] md:text-[45px] font-bold tracking-[0.8px] mb-6 '>{`I'm `}
                     <span className='border-r-[2px] border-gray-600'>{text}</span>
