@@ -9,7 +9,7 @@ import { Banner } from '@/Components/Banner';
 
 export default function Home() {
   return (
-    <main className=" w-screen">
+    <main className="">
       <NavBarDos />
       {/* <h1>Hola Vercel</h1> */}
       <Banner />
