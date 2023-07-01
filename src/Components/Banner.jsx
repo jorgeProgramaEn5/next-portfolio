@@ -68,10 +68,8 @@ export const Banner = ()=>{
                     <span className='border-r-[2px] border-gray-600'>{text}</span>
                   </h1>
                   <p className=' text-justify md:text-left hidden md:block text-[18px] tracking-[0.8px] leading-6 text-secondary-400 px-[2px] md:px-[5px]'>
-                    {/* eslint-disable react/no-unescaped-entities */}
-                    I'm an electrician who decided to quit my job to follow the dream of becoming a good 
+                    I am an electrician who decided to quit my job to follow the dream of becoming a good 
                     app developer.
-                    {/* eslint-enable react/no-unescaped-entities */}
                   </p>
                   <p className='text-justify md:text-left text-[18px] tracking-[0.8px] leading-6 text-secondary-400 px-[2px] md:px-[5px]'>
                     More than just writing code, what I like is creating new and clever 
