@@ -9,7 +9,7 @@ export function Skills() {
 
             <div className="p-6">
                 <small className="text-gray-900 text-xs">Category</small>
-                <h1 className="text-2xl font-medium text-gray-700 pb-2">Your Heading</h1>
+                <h1 className=" text-[18px] md:text-2xl font-medium text-gray-700 pb-2">Your Heading</h1>
                 <p>
                   I am a front-end developer with experience in various tools and technologies. 
                   My specialization lies in Next.js, React, and Figma technologies, although 
