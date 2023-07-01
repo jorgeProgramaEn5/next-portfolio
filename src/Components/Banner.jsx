@@ -38,7 +38,7 @@ export const Banner = ()=>{
       if (!isDeleting && updatedText === fullText) {
         setIsDeleting(true);
         setDelta(period);
-      } else if (isDeleting && updatedText === '') {
+      } else if (isDeleting && updatedText === "") {
         setIsDeleting(false);
         setLoopNum((loopNum) => loopNum + 1);
         setDelta(80);
@@ -74,7 +74,7 @@ export const Banner = ()=>{
                   <p className='text-justify md:text-left text-[18px] tracking-[0.8px] leading-6 text-secondary-400 px-[2px] md:px-[5px]'>
                     More than just writing code, what I like is creating new and clever 
                     solutions. I think my biggest strengths are my desire to keep learning and my determination 
-                    to try new things, even if they're outside of my comfort zone.
+                    to try new things, even if they are outside of my comfort zone.
                   </p>
                 </div>
                 <div className='w-full flex justify-center md:justify-start'>
