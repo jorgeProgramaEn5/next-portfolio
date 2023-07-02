@@ -10,7 +10,7 @@ import {meter1, meter2, meter3, meter4} from '@/Assets/indice';
 
 
 
-export default function Carrusel() {
+export function Carrusel() {
 
   const responsive = {
     superLargeDesktop: {

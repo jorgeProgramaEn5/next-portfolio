@@ -1,6 +1,9 @@
 'use client'
 import React from 'react';
 import { useState} from 'react';
+import { Carrusel } from '@/Components/Carrusel';
+
+
 
 
 
@@ -20,7 +23,7 @@ export function Skills() {
   }
 
   return (
-    <section>
+    <section id='skills'>
         <div className="mx-auto flex w-[85%] md:w-[85%] lg:w-[90%] flex-col justify-center bg-white rounded-2xl shadow-xl shadow-gray-400/20">
 
             <div className=" flex justify-center items-center flex-col md:items-start p-3">
@@ -45,6 +48,10 @@ export function Skills() {
                 {botonText}
               </div>
             </div>
+            </div>
+
+            <div>
+              <Carrusel/>
             </div>
         </div>
 
