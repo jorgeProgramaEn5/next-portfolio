@@ -81,8 +81,8 @@ export const Banner = ()=>{
                 </div>
                 <div className='w-full flex justify-center md:justify-start'>
                   <button className='flex flex-row text-2xl text-[18px] text-gray-700 md:font-bold md:text-[20px] mt-[30px] md:mt-[60px] tracking-[0.8px] '>
-                      <span className='flex flex-row'>
-                        <BsWhatsapp size={25} className='animate-pinggg text-secondary-300 mr-[10px]' />
+                      <span className='flex flex-row-reverse'>
+                        <BsWhatsapp size={25} className='animate-pinggg text-secondary-300 ml-[10px]' />
                         <a href='https://wa.me/+5359106524?text=Hola%20Jorge!%20Necesitamos%20de%20tus%20servicios'>WhatsApp me</a> 
                       </span>
                   </button>
