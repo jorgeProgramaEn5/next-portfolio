@@ -24,7 +24,7 @@ export function Skills() {
 
   return (
     <section id='skills'>
-        <div className="mx-auto flex w-[85%] md:w-[85%] lg:w-[90%] flex-col justify-center bg-white rounded-2xl shadow-xl shadow-gray-400/20">
+        <div className="mx-auto flex w-[85%] md:w-[85%] lg:w-[90%] flex-col justify-center bg-white rounded-2xl shadow-xl shadow-gray-400/20 pb-6">
 
             <div className=" flex justify-center items-center flex-col md:items-start p-3">
                 <h1 className="text-[18px] md:text-[45px] font-medium text-gray-700 pb-2">My Skills</h1>
