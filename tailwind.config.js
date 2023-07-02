@@ -43,5 +43,8 @@ module.exports = {
     },
   },
   plugins: [],
+  pseudo: {
+    'before': 'before',
+  },
 }
 
