@@ -7,7 +7,9 @@ import { Projects  } from '@/Components/Projects';
 import { ContactEmailjs } from '@/Components/ContactEmailjs';
 import { Footer } from '@/Components/Footer';
 
-export default function Home() {
+export default async function Home() {
+  await new Promise(resolve => setTimeout(resolve, 7000))
+
   return (
     <main className="">
       <NavBarDos />
