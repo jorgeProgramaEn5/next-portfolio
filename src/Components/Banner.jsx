@@ -66,7 +66,7 @@ export const Banner = ()=>{
                   <span className='inline-block font-semibold md:font-bold tracking-[0.8px] hover:tracking-[0.9px] text-secondary-100 border border-secondary-100 rounded-lg text-lg mb-4 px-[10px] py-[10px] md:px-4 md:py-2'>
                     Welcome to my Portfolio
                   </span>
-                  <h1 className='text-rotate block text-[18px] md:text-[45px] font-medium text-gray-700 tracking-[0.8px] mb-6 '>{`I'm `}
+                  <h1 className='text-rotate block text-[18px] md:text-[35px] lg:text-[45px] font-medium text-gray-700 tracking-[0.8px] mb-6 '>{`I'm `}
                     <span className='border-r-[2px] font-medium text-gray-700'>{text}</span>
                   </h1>
                   <p className=' text-justify md:text-left hidden md:block text-[18px] tracking-[0.8px] leading-6 text-secondary-400 px-[2px] md:px-[5px]'>
