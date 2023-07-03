@@ -7,7 +7,7 @@ import header720x720 from "./header720x720.png";
 
 import arrow1 from "./arrow1.svg";
 import arrow2 from "./arrow2.svg";
-import contact_img from "./contact_img.svg";
+import contact_img from "./contact_img.png";
 import header_img from "./header_img.svg";
 import meter1 from "./meter1.svg";
 import meter2 from "./meter2.svg";

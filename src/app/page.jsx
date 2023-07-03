@@ -4,7 +4,7 @@ import {NavBarDos} from '@/Components/NavBarDos';
 import { Banner } from '@/Components/Banner';
 import { Skills } from '@/Components/Skills';
 import { Projects  } from '@/Components/Projects';
-// import { ContactEmailjs } from '@/Components/ContactEmailjs';
+import { ContactEmailjs } from '@/Components/ContactEmailjs';
 import { Footer } from '@/Components/Footer';
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
       <Banner />
       <Skills />
       <Projects />
-      {/* <ContactEmailjs /> */}
+      <ContactEmailjs />
       <Footer />
     </main>
   )

@@ -1,11 +1,11 @@
 'use client'
-import { contact_img } from '@/Constant/indice';
+import {contact_img} from '@/Assets/indice';
+
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import Image from 'next/image'
 
-
-
-export function Contact() {
+export function ContactEmailjs() {
 
     const form = useRef();
     const [buttonText, setButtonText] = useState("send");
@@ -34,7 +34,7 @@ export function Contact() {
       <section className='contact' id='contact'>
               <div className='aling-items-center'>
                   <div md={6} className='imgContact'>
-                      <img src={contact_img} alt="contact" />
+                      <Image src={contact_img} alt="contact" />
                   </div>
 
                     <div md={6} className='contact-form'>
