@@ -4,9 +4,9 @@ import { Playfair_Display } from 'next/font/google'
 const playDisplay = Playfair_Display({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Next-Portfolio',
+  title: 'estrada-portfolio',
   description: 'In my portfolio you can discover my work done to date. Through him you can contact me by several ways, gmail, whatsapp, linkedin, etc.',
-  keywords: 'portfolio, jorge, estrada, contact, work',
+  keywords: 'portfolio, jorge, estrada, contact, work, estrada-portfolio',
 }
 
 export default function RootLayout({ children }) {
