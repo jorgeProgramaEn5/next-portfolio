@@ -55,7 +55,7 @@ export const Banner = ()=>{
   }, [delta, isDeleting, loopNum, setText, text.length]);
 
   return (
-    <section id='home' className='pt-[150px] md:pt-[200px]'>
+    <section id='home' className='pt-[150px] md:pt-[200px] md:pb-24'>
       
       <div className=' container mx-auto px-[30px] md:px-[37px]'>
         
@@ -69,11 +69,11 @@ export const Banner = ()=>{
                   <h1 className='text-rotate block text-[18px] md:text-[35px] lg:text-[45px] font-medium text-gray-700 tracking-[0.8px] mb-6 '>{`I'm `}
                     <span className='border-r-[2px] font-medium text-gray-700'>{text}</span>
                   </h1>
-                  <p className=' text-justify md:text-left hidden md:block text-[18px] tracking-[0.8px] leading-6 text-secondary-400 px-[2px] md:px-[5px]'>
+                  <p className=' text-justify md:text-left hidden md:block text-[18px] tracking-[0.8px] leading-6 md:leading-8 text-secondary-400 px-[2px] md:px-[5px]'>
                     I am an electrician who decided to quit my job to follow the dream of becoming a good 
                     app developer.
                   </p>
-                  <p className='text-justify md:text-left text-[18px] tracking-[0.8px] leading-6 text-secondary-400 px-[2px] md:px-[5px]'>
+                  <p className='text-justify md:text-left text-[18px] tracking-[0.8px] leading-6 md:leading-8 text-secondary-400 px-[2px] md:px-[5px]'>
                     More than just writing code, what I like is creating new and clever 
                     solutions. I think my biggest strengths are my desire to keep learning and my determination 
                     to try new things, even if they are outside of my comfort zone.

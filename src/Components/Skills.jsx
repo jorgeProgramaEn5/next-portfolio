@@ -24,15 +24,15 @@ export function Skills() {
 
   return (
     <section id='skills'>
-        <div className="mx-auto flex w-[85%] md:w-[85%] lg:w-[90%] flex-col justify-center bg-slate-100 rounded-2xl shadow-xl shadow-gray-400/20 pb-6">
+        <div className="mx-auto flex w-[85%] md:w-[85%] lg:w-[90%] flex-col justify-center bg-slate-100 rounded-2xl shadow-xl shadow-gray-400/20 pb-10 md:pb-16">
 
             <div className=" flex justify-center items-center flex-col md:items-start p-3">
                 <h1 className="text-[18px] md:text-[45px] font-medium text-gray-700 pb-2">My Skills</h1>
-                <p className='text-justify md:text-left text-[18px] tracking-[0.8px] leading-6 text-secondary-400 px-[2px]'>
+                <p className='text-justify md:text-left text-[18px] tracking-[0.8px] leading-6 md:leading-8 text-secondary-400 px-[2px] md:pr-5'>
                   I am a front-end developer with experience in various tools and technologies. 
                   My specialization lies in Next.js, React, and Figma technologies, although 
-                  I also have experience in other essential tools such as HTML, CSS, JavaScript, 
-                  Git, Bootstrap, and Tailwind. <span className={`${view}`}>
+                  I also have experience in other essential tools such as HTML, CSS, Git, JavaScript, 
+                   Tailwind, and Bootstrap. <span className={`${view}`}>
                   I handle these tools with ease and use them to create attractive, responsive, 
                   and functional websites and applications. As a developer, my goal is always to 
                   provide high-quality solutions that exceed the expectations of my clients and 
