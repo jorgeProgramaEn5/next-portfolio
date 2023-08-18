@@ -40,7 +40,7 @@ export function NavBarDos() {
         <Image src={logo} alt='logo'/>
       </div>
 
-      <ul className=' hidden md:flex md:justify-end md:items-center'>
+      <ul className=' hidden md:flex md:justify-end md:items-center md:pr-6'>
           {navLinks.map((nav, index)=>(
             <li
               key={nav.id}
