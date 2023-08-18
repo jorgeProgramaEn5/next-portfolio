@@ -43,7 +43,7 @@ export function Skills() {
               <div className="mt-5 mb-10 flex items-center justify-center gap-x-6 lg:justify-start">
               <div
                 onClick={()=> button()}
-                className="rounded-md px-3.5 py-2.5 text-sm md:text-base lg:text-lg font-semibold text-gray-900 shadow-sm bg-gray-100 hover:bg-gray-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white cursor-pointer"
+                className="rounded-md px-3.5 py-2.5 text-sm md:text-base lg:text-lg font-semibold text-gray-900 shadow-sm bg-white hover:bg-gray-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white cursor-pointer"
               >
                 {botonText}
               </div>

@@ -31,7 +31,7 @@ export function ContactEmailjs() {
     };
   
     return (
-      <section className=' bg-primary-100 pt-[60px] pb-[20px] md:pb-[60px]' id='contact'>
+      <section className=' bg-primary-100 pt-[60px] pb-[40px] md:pb-[60px]' id='contact'>
         <div className=' container m-auto flex justify-center items-center'>
           <div className=' grid grid-cols-1 md:grid-cols-2'>
             <div className='flex justify-center items-center pl-4 md:pl-0'>
@@ -42,7 +42,7 @@ export function ContactEmailjs() {
             
             <div>
               <div className='flex flex-col justify-center items-center md:items-end'>
-                  <h2 className='text-[18px] md:text-[35px] lg:text-[45px] md:mr-4 md:mb-4'>Get In Touch</h2>
+                  <h2 className='text-[18px] md:text-[35px] lg:text-[45px] md:mr-4 my-3 md:my-4'>Get In Touch</h2>
                   <form ref={form} onSubmit={sendEmail}>
                       <div className='grid grid-cols-1'>
                         
@@ -68,8 +68,8 @@ export function ContactEmailjs() {
 
                         <div className='flex flex-col px-3 py-1'>
                             <textarea className='focus:opacity-90 focus:bg-white focus:text-[#121212] w-[100%] text-white font-medium text-[14px] md:text-[18px] tracking-[0.8px] bg-white bg-opacity-10 border border-solid rounded-[20px] border-opacity-50 border-white py-[10px] md:py-[18px] px-[18px] md:px-[26px] transition-all duration-[0.5s] ease-in-out' style={{ resize: "none" }} name="message" row="6" placeholder='Message' required></textarea>
-                            <input type="submit" value={buttonText} className={`${buttonTextDesable} font-bold text-[#ffffffcb] text-center hover:text-black bg-white  bg-opacity-40 hover:opacity-90 hover:bg-white border border-solid rounded-[20px] border-opacity-50 border-white mt-2 py-[14px] px-[48px]`} onClick={()=>setButtonText("Sending...")}/>
-                            <input type="submit" value={buttonText} className={`${buttonTextEnable} font-bold text-[#ffffffcb] text-center hover:text-black bg-white  bg-opacity-10 hover:opacity-90 hover:bg-white border border-solid rounded-[20px] border-opacity-50 border-white mt-2 py-[14px] px-[48px]`} disabled/>
+                            <input type="submit" value={buttonText} className={`${buttonTextDesable} font-bold text-[#ffffffcb] text-center hover:text-black bg-white  bg-opacity-40 hover:opacity-90 hover:bg-white border border-solid rounded-[20px] border-opacity-50 border-white mt-2 py-[14px] px-[48px] cursor-pointer`} onClick={()=>setButtonText("Sending...")}/>
+                            <input type="submit" value={buttonText} className={`${buttonTextEnable} font-bold text-[#ffffffcb] text-center hover:text-black bg-white  bg-opacity-10 hover:opacity-90 hover:bg-white border border-solid rounded-[20px] border-opacity-50 border-white mt-2 py-[14px] px-[48px] cursor-not-allowed`} disabled/>
                         </div>
                       </div>
                   </form>
