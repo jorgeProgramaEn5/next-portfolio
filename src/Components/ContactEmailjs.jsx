@@ -31,7 +31,7 @@ export function ContactEmailjs() {
     };
   
     return (
-      <section className=' bg-primary-100 pt-[60px] pb-[40px] md:pb-[60px]' id='contact'>
+      <section className='flex justify-center items-center w-full bg-primary-100 pt-[60px] pb-[40px] md:pb-[60px]' id='contact'>
         <div className=' container m-auto flex justify-center items-center'>
           <div className=' grid grid-cols-1 md:grid-cols-2'>
             <div className='flex justify-center items-center pl-4 md:pl-0'>

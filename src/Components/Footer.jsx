@@ -8,7 +8,7 @@ import Image from 'next/image'
 
 export function Footer() {
   return (
-    <footer className='footer pt-4 '>
+    <footer className='footer pt-8 flex justify-center items-center w-full'>
         <div className=' container m-auto flex justify-center pb-5'>
                 <div className=' flex flex-col items-center w-[50%]'>
                     <div className='flex flex-row w-[120px] md:w-[150px]'>

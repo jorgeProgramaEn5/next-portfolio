@@ -55,10 +55,8 @@ export const Banner = ()=>{
   }, [delta, isDeleting, loopNum, setText, text.length]);
 
   return (
-    <section id='home' className='pt-[150px] md:pt-[200px] md:pb-24'>
-      
-      <div className=' container mx-auto px-[30px] md:px-[37px]'>
-        
+    <section id='home' className='pt-[150px] md:pt-[200px] md:pb-24 flex justify-center items-center w-full'>
+      <div className=' container mx-auto px-7 md:px-24'>
         <div className='grid gap-4 md:gap-8 grid-cols-1 md:grid-cols-1 lg:grid-cols-3 '>
 
             <div className='col-span-2 flex flex-col justify-center items-start pl-2 md:pr-[140px]'>

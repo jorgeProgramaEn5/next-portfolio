@@ -33,9 +33,9 @@ export function Projects() {
     }
 
     return (
-    <section className='' id='projects'>
+    <section className='flex justify-center items-center w-full' id='projects'>
         <div className='  flex flex-col justify-center items-center py-[60px] md:py-24' id='projects'>
-            <div className=' container flex justify-center items-center flex-col md:items-start m-auto pb-6 px-6 md:px-8'>
+            <div className=' container flex justify-center items-center flex-col md:items-start m-auto pb-6 px-7 md:px-24'>
                 <h2 className="text-[18px] md:text-[45px] font-medium text-gray-700 pb-2">Projects</h2>
                 <p className='text-justify md:text-left text-[18px] tracking-[0.8px] leading-6 md:leading-8 text-secondary-400 px-[2px]'>
                     I have split my projects into two main categories: personal projects and contracted projects. My personal projects are where I get to explore 

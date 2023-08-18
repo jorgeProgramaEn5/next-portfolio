@@ -23,9 +23,8 @@ export function Skills() {
   }
 
   return (
-    <section id='skills'>
-        <div className="mx-auto flex w-[85%] md:w-[85%] lg:w-[90%] flex-col justify-center bg-slate-100 rounded-2xl shadow-xl shadow-gray-400/20 pb-10 md:pb-16 md:pt-4 px-2 md:px-6">
-
+    <section className='flex justify-center items-center w-full' id='skills'>
+        <div className="flex w-[85%] md:w-[85%] lg:w-[90%] flex-col justify-center bg-slate-100 rounded-2xl shadow-xl shadow-gray-400/20 pb-10 md:pb-16 md:pt-4 px-2 md:px-6">
             <div className=" flex justify-center items-center flex-col md:items-start p-3">
                 <h1 className="text-[18px] md:text-[45px] font-medium text-gray-700 pb-2">My Skills</h1>
                 <p className='text-justify md:text-left text-[18px] tracking-[0.8px] leading-6 md:leading-8 text-secondary-400 px-[2px] md:pr-5'>

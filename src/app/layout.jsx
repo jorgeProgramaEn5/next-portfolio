@@ -1,5 +1,7 @@
 import './globals.css'
-import { Playfair_Display } from 'next/font/google'
+import { Playfair_Display } from 'next/font/google';
+import {NavBarDos} from '@/Components/NavBarDos';
+
 
 const playDisplay = Playfair_Display({ subsets: ['latin'] })
 
@@ -37,6 +39,9 @@ export default function RootLayout({ children }) {
 
       </head>
       <body className={playDisplay.className}>
+        <header>
+          <NavBarDos />
+        </header>
         {children}
       </body>
     </html>
