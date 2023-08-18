@@ -35,19 +35,19 @@ export function Carrusel() {
   <Carousel responsive={responsive} infinite={true} arrows={false} autoPlay={true} autoPlaySpeed={3000} className='skill-slider'>
     <div className='flex justify-center items-center flex-col'>
         <Image src={meter1} alt="img_meter" className='w-[50%] md:w-[40%]'/>
-        <h5>Nextjs/React</h5>
+        <h5 className='text-[16px] md:text-[20px] pt-3 text-gray-700 font-medium'>Nextjs/React</h5>
     </div>
-    <div className='flex justify-center items-center flex-col'>
+    <div className='text-[16px] md:text-[20px] flex justify-center items-center flex-col'>
         <Image src={meter2} alt="img_meter" className='w-[50%] md:w-[40%]'/>
-        <h5>JavaScript</h5>
+        <h5 className='pt-3 text-gray-700 font-medium'>JavaScript</h5>
     </div>
-    <div className='flex justify-center items-center flex-col'>
+    <div className='text-[16px] md:text-[20px] flex justify-center items-center flex-col'>
         <Image src={meter3} alt="img_meter" className='w-[50%] md:w-[40%]'/>
-        <h5>HTML/CSS/Tailwind</h5>
+        <h5 className='pt-3 text-gray-700 font-medium'>HTML/CSS/Tailwind</h5>
     </div>
-    <div className='flex justify-center items-center flex-col'>
+    <div className='text-[16px] md:text-[20px] flex justify-center items-center flex-col'>
         <Image src={meter4} alt="img_meter" className='w-[50%] md:w-[40%]'/>
-        <h5>Enthusiasm for learning</h5>
+        <h5 className='pt-3 text-gray-700 font-medium'>Enthusiasm For Learning</h5>
     </div>
   </Carousel>
   )

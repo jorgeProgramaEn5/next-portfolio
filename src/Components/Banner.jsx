@@ -66,7 +66,7 @@ export const Banner = ()=>{
                   <span className='inline-block font-semibold md:font-bold tracking-[0.8px] hover:tracking-[0.9px] text-secondary-100 border border-secondary-100 rounded-lg text-lg mb-4 px-[10px] py-[10px] md:px-4 md:py-2'>
                     Welcome to my Portfolio
                   </span>
-                  <h1 className='text-rotate block text-[18px] md:text-[45px] font-medium text-gray-700 tracking-[0.8px] mb-6 '>{`I'm `}
+                  <h1 className='text-rotate block text-[18px] md:text-[35px] lg:text-[45px] font-medium text-gray-700 tracking-[0.8px] mb-6 '>{`I'm `}
                     <span className='border-r-[2px] font-medium text-gray-700'>{text}</span>
                   </h1>
                   <p className=' text-justify md:text-left hidden md:block text-[18px] tracking-[0.8px] leading-6 text-secondary-400 px-[2px] md:px-[5px]'>
@@ -81,10 +81,15 @@ export const Banner = ()=>{
                 </div>
                 <div className='w-full flex justify-center md:justify-start'>
                   <button className='flex flex-row text-2xl text-[18px] text-gray-700 md:font-bold md:text-[20px] mt-[30px] md:mt-[60px] tracking-[0.8px] '>
-                      <span className='flex flex-row-reverse'>
+                  <a target='blank' href='https://wa.me/+5359106524?text=Hola%20Jorge!%20Necesitamos%20de%20tus%20servicios'>
+                      <span className='flex flex-row'>
+                      
+                      WhatsApp me
                         <BsWhatsapp size={25} className='animate-pinggg text-secondary-300 md:ml-[10px]' />
-                        <a target='blank' href='https://wa.me/+5359106524?text=Hola%20Jorge!%20Necesitamos%20de%20tus%20servicios'>WhatsApp me</a> 
+                        
                       </span>
+                      </a> 
+
                   </button>
                 </div>
             </div>

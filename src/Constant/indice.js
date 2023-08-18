@@ -27,9 +27,9 @@ export const projects = [
     imgUrl: project_img1
   },
   {
-    title: "shop embici",
-    description: "shoop of bicycle",
-    link: "https://jorgeprogramaen5.github.io/proyecto_integrado/",
+    title: "eSe",
+    description: "company home page",
+    link: "https://ese-next.vercel.app/",
     imgUrl: project_img2
   },
   {
@@ -62,12 +62,12 @@ export const projectsBussiness = [
   //   link: "https://www.bicicuba.com/",
   //   imgUrl: project_img1
   // },
-  // {
-  //   title: "shop embici",
-  //   description: "shoop of bicycle",
-  //   link: "https://www.shoopofbicycle.com/",
-  //   imgUrl: project_img2
-  // },
+  {
+    title: "eSe",
+    description: "company home page",
+    link: "https://ese-next.vercel.app/",
+    imgUrl: project_img2
+  },
   // {
   //   title: "happiness",
   //   description: "talk about happiness",
