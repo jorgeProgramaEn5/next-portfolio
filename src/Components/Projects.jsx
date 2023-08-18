@@ -63,8 +63,8 @@ export function Projects() {
                 </div>
             </div>
 
-            <div>
-                <div className={`${step1} grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 min-w-[90%] pt-7 px-4 md:px-10`}>
+            <div className='flex justify-center items-center w-full '>
+                <div className={`${step1} grid gap-2 md:gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 min-w-[90%] pt-7 px-4 md:px-10`}>
                 {
                     projects.map((project, index)=>{
                         return (    
@@ -76,7 +76,7 @@ export function Projects() {
                 }
                 </div>
 
-                <div className={`${step2} grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 min-w-[90%] pt-7 px-4 md:px-10`}>
+                <div className={`${step2} grid gap-2 md:gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 min-w-[90%] pt-7 px-4 md:px-10`}>
                 {
                     projectsPersonales.map((project, index)=>{
                         return (    
@@ -88,7 +88,7 @@ export function Projects() {
                 }
                 </div>
 
-                <div className={`${step3} grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 min-w-[90%] pt-7 px-4 md:px-10`}>
+                <div className={`${step3} grid gap-2 md:gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 min-w-[90%] pt-7 px-4 md:px-10`}>
                 {
                     projectsBussiness.map((project, index)=>{
                         return (    
