@@ -33,9 +33,9 @@ export const projects = [
     imgUrl: project_img2
   },
   {
-    title: "corporative web",
-    description: "landing page corporative",
-    link: "https://jorgeprogramaen5.github.io/",
+    title: "Home Page",
+    description: "landing page",
+    link: "https://toacuba-vercel.vercel.app/products",
     imgUrl: project_img3
   },
 ];
@@ -75,9 +75,9 @@ export const projectsBussiness = [
   //   imgUrl: project_img3
   // },
   {
-    title: "Corporative",
-    description: "landing page corporative",
-    link: "https://jorgeprogramaen5.github.io/",
+    title: "Home Page",
+    description: "landing page",
+    link: "https://toacuba-vercel.vercel.app/products",
     imgUrl: project_img3
   },
 ];
