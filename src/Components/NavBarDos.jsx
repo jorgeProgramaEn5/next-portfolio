@@ -34,9 +34,9 @@ export function NavBarDos() {
   return (
     
     <nav 
-      className={` flex justify-between items-center w-full max-h-[50vh] bg-primary-100 transition-all duration-[0.5s] ease-in-out py-6 px-3 fixed top-0 z-50 ${scrolled ? 'pb-1 pt-1' : ''}`}     //varia el scrolled aqui
+      className={`flex justify-between items-center w-full max-h-[50vh] bg-primary-100 transition-all duration-[0.5s] ease-in-out py-6 px-4 md:px-8 lg:px-24 fixed top-0 z-50 ${scrolled ? 'pb-1 pt-1' : ''}`}     //varia el scrolled aqui
     >
-      <div className=' ml-[25px] lg:ml-[55px] w-1/3 md:w-1/5 lg:w-1/5 xl:w-[14%]'>
+      <div className='w-[100px] md:w-[150px] lg:w-[200px]'>
         <Image src={logo} alt='logo'/>
       </div>
 
@@ -44,7 +44,7 @@ export function NavBarDos() {
           {navLinks.map((nav, index)=>(
             <li
               key={nav.id}
-              className= {`${index === navLinks.length -1 ? "mr-4" : "mr-6"}`}
+              className= {`${index === navLinks.length -1 ? "mr-0" : "mr-6"}`}
             >
               <a 
                 href={`#${nav.id}`}
