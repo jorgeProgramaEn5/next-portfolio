@@ -1,6 +1,7 @@
 'use client'
 import Image from 'next/image'
-import {logo, close, menu} from '@/Assets/indice';
+import Link from 'next/link';
+import {logo_portafolio, close, menu} from '@/Assets/indice';
 import { navLinks } from '@/Constant/indice';
 import { useState, useEffect } from 'react';
 
@@ -34,11 +35,19 @@ export function NavBarDos() {
   return (
     
     <nav 
-      className={`flex justify-between items-center w-full max-h-[50vh] bg-primary-100 transition-all duration-[0.5s] ease-in-out py-6 px-4 md:px-8 lg:px-24 fixed top-0 z-50 ${scrolled ? 'pb-1 pt-1' : ''}`}     //varia el scrolled aqui
+      className={` backdrop-blur-md bg-background-100 bg-opacity-80 border-b border-gray-400 flex justify-between items-center w-full max-h-[50vh] transition-all duration-[0.5s] ease-in-out  px-4 sm:px-8 md:px-10 lg:px-24 fixed top-0 z-[9999] ${scrolled ? 'py-2 md:py-3' : 'py-6'}`}     //varia el scrolled aqui
     >
-      <div className='w-[100px] md:w-[150px] lg:w-[200px]'>
-        <Image src={logo} alt='logo'/>
-      </div>
+      <Link href={'/'}>
+        <div className=' flex flex-row justify-center items-center'>
+          <div className='w-[45px] md:w-[60px] lg:w-[75px]'>
+            <Image src={logo_portafolio} alt='logo'/>
+          </div>
+          <div className='flex flex-col text-[18px] md:text-[24px] lg:text-[30px]'>
+            <span className=' font-semibold text-primary-100'>Jorge</span>
+            <span>Estrada</span>
+          </div>
+        </div>
+      </Link>
 
       <ul className=' hidden md:flex md:justify-end md:items-center md:pr-6'>
           {navLinks.map((nav, index)=>(

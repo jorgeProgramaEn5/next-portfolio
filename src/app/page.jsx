@@ -9,11 +9,10 @@ import { Footer } from '@/Components/Footer';
 
 export default function Home() {
   return (
-    <main className="bg-white w-full overflow-hidden text-black">
+    <main className=" bg-background-100 w-full overflow-hidden text-white">
       <div className='flex justify-center items-center w-full'>
         <div className='w-full'>
           {/* <NavBarDos /> */}
-          {/* <h1>Hola Vercel</h1> */}
           <Banner />
           <Skills />
           <Projects />

@@ -2,7 +2,21 @@ import whastapp from "./whastapp.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
 import logo from "./logo.png";
+import logo_portafolio from "./logo_portafolio.svg";
+import rocket from "./rocket.svg";
 import header720x720 from "./header720x720.png";
+import hero from "./hero.svg";
+import code from "./code.svg";
+import branch from "./branch.svg";
+import git from "./git.svg";
+import javascript from "./javascript.svg";
+import bootstrap from "./bootstrap.svg";
+import tailwind from "./tailwind.svg";
+import strapi from "./strapi.svg";
+import nextjs from "./nextjs.svg";
+import figma from "./figma.svg";
+import eye_open from "./eye_open.svg";
+import eye_closed from "./eye_closed.svg";
 
 
 import arrow1 from "./arrow1.svg";
@@ -32,7 +46,10 @@ export {
   linkedin,
   twitter,
   logo,
+  logo_portafolio,
+  rocket,
   header720x720,
+  hero,
   arrow1,
   arrow2,
   contact_img,
@@ -49,5 +66,16 @@ export {
   project_img3,
   project_img4,
   close,
-  menu
+  menu,
+  code,
+  branch,
+  git,
+  javascript,
+  bootstrap,
+  nextjs,
+  figma,
+  tailwind,
+  strapi,
+  eye_open,
+  eye_closed,
 };

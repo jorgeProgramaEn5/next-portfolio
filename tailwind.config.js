@@ -10,6 +10,10 @@ module.exports = {
           '0%': { transform: 'translateY(100px)' },
           '100%': { transform: 'translateY(0px)' },
         },
+        wiggledown: {
+          '0%': { transform: 'translateY(-50px)' },
+          '100%': { transform: 'translateY(0px)' },
+        },
         pinggg: {
           '75%, 100%': {
             transform: 'scale(2)',
@@ -19,6 +23,7 @@ module.exports = {
       },
       animation: {
         wiggle: 'wiggle 0.5s ease-in-out',
+        wiggledown: 'wiggledown 0.5s ease-in-out',
         pinggg: 'pinggg 2s ease-in-out infinite',
       },
       backgroundImage: {
@@ -35,6 +40,16 @@ module.exports = {
         },
         secondary:{
           100:"#ff7c3e",
+          200:"#63bff3",
+          300:"#25d366",
+          400:"#797979"
+        },
+        background:{
+          100:"#2b2a33",
+          200:"#63bff3",
+        },
+        colortext:{
+          100:"#fbfbfe",
           200:"#63bff3",
           300:"#25d366",
           400:"#797979"

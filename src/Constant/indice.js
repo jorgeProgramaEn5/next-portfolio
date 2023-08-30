@@ -1,5 +1,5 @@
 import {whastapp, twitter, linkedin, project_img1, project_img2, project_img3, project_img4} from '../Assets/indice';
-
+import { git, javascript, bootstrap, tailwind, nextjs, strapi, figma } from '../Assets/indice';
 export const socialMedia = [
   {
     id: "social-media-1",
@@ -98,5 +98,43 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+  },
+];
+
+export const skills = [
+  {
+    id: "0",
+    title: "Git",
+    image: git,
+  },
+  {
+    id: "1",
+    title: "JavaScript",
+    image: javascript,
+  },
+  {
+    id: "2",
+    title: "NextJs13",
+    image: nextjs,
+  },
+  {
+    id: "3",
+    title: "Bootstrap",
+    image: bootstrap,
+  },
+  {
+    id: "4",
+    title: "Tailwinds",
+    image: tailwind,
+  },
+  {
+    id: "5",
+    title: "Strapi",
+    image: strapi,
+  },
+  {
+    id: "6",
+    title: "Figma",
+    image: figma,
   },
 ];
