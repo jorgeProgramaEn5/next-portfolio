@@ -1,7 +1,8 @@
 import {
-  whastapp, 
+  whatsapp, 
   twitter, 
   linkedin, 
+  gmail, 
   project_img1, 
   project_img2, 
   project_img3, 
@@ -26,19 +27,24 @@ import {
 
 export const socialMedia = [
   {
-    id: "social-media-1",
-    icon: whastapp,
-    link: "https://www.whastapp.com/",
+    id: "0",
+    icon: whatsapp,
+    link: "https://wa.me/+5359106524?text=Hola%20Jorge!%20Necesitamos%20de%20tus%20servicios",
   },
   {
-    id: "social-media-4",
+    id: "1",
     icon: linkedin,
     link: "https://www.linkedin.com/",
   },
   {
-    id: "social-media-3",
+    id: "2",
     icon: twitter,
     link: "https://www.twitter.com/",
+  },
+  {
+    id: "2",
+    icon: gmail,
+    link: "https://www.gmail.com/",
   },
 
 ];

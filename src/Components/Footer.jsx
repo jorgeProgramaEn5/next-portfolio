@@ -20,7 +20,8 @@ export function Footer() {
     //             </div>
     //     </div>
     // </footer>
-    <footer className="bg-gray-900 border-t">
+    <footer className="bg-slate-100/20 ">
+      {/* name + frase */}
       <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="flex justify-center text-teal-300">
           Jorge Estrada Machado
@@ -185,7 +186,7 @@ export function Footer() {
               href="/"
               rel="noreferrer"
               target="_blank"
-              className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+              className="text-white hover:text-white/75"
             >
               <span className="sr-only">Dribbble</span>
               <svg

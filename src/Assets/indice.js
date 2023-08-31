@@ -1,6 +1,8 @@
-import whastapp from "./whastapp.svg";
-import linkedin from "./linkedin.svg";
-import twitter from "./twitter.svg";
+// social
+import whatsapp from "./social/whatsapp.svg";
+import linkedin from "./social/linkedin.svg";
+import twitter from "./social/twitter.svg";
+import gmail from "./social/gmail.svg";
 import logo from "./logo.png";
 import logo_portafolio from "./logo_portafolio.svg";
 import rocket from "./rocket.svg";
@@ -53,9 +55,10 @@ import menu from "./menu.svg";
 
 
 export {
-  whastapp,
+  whatsapp,
   linkedin,
   twitter,
+  gmail,
   logo,
   logo_portafolio,
   rocket,
