@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 0 24 24"
+   fill="none"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="meter60.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect7659"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect7659-2"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.71417784"
+     inkscape:cx="172.22601"
+     inkscape:cy="452.96841"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     d="m 11.001385,2.2117708 c -0.05088,-0.5938862 0.378221,-1.123446 0.959614,-1.1140703 2.191603,0.035265 4.324362,0.7952058 6.072754,2.182022 2.027302,1.6078791 3.388701,3.9402197 3.812711,6.5316717 0.423983,2.5915508 -0.120588,5.2516148 -1.525193,7.4496308 -1.40451,2.198046 -3.565674,3.772446 -6.052424,4.409117 -2.486751,0.63666 -5.1162285,0.288794 -7.3638763,-0.974217 C 6.6240171,20.53805 6.2447117,20.294168 5.8699595,20.023638 5.7806641,19.959182 5.2823649,19.66534 5.1863075,19.358742 5.075632,19.005485 5.1613796,18.552051 5.3915389,18.265713 c 0.1986173,-0.247096 0.556937,-0.356054 0.869246,-0.358515 0.2577362,-0.002 0.67461,0.248375 0.7217048,0.284531 0.3048215,0.234026 0.7117158,0.485954 0.9345892,0.611192 1.7829492,1.001887 3.8689101,1.277864 5.8415821,0.772819 1.972673,-0.50505 3.687048,-1.753998 4.801254,-3.497626 1.114208,-1.743637 1.546178,-3.853871 1.209794,-5.90961 C 19.433422,8.1127909 18.35345,6.2626567 16.745306,4.9870759 15.416281,3.9329359 13.807208,3.3354103 12.145452,3.2626471 11.564513,3.2372505 11.052297,2.8055617 11.001385,2.2117708 Z"
+     fill="url(#paint0_linear_16_349)"
+     id="path1179-9-9"
+     style="fill:#7958d7;fill-opacity:1;stroke-width:0.101111"
+     sodipodi:nodetypes="cccccsssaaasssscccc" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.3926px;line-height:1.65;font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, ';fill:#fbfbfe;fill-opacity:0.89999998;stroke:none;stroke-width:0.101111"
+     x="6.6492252"
+     y="13.502987"
+     id="text11803-277-95-2"
+     transform="scale(0.98764045,1.0125142)"><tspan
+       sodipodi:role="line"
+       id="tspan11801-6-0-3"
+       x="6.6492252"
+       y="13.502987"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.3926px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';fill:#fbfbfe;fill-opacity:0.89999998;stroke-width:0.101111">60%</tspan></text>
+</svg>

@@ -8,15 +8,26 @@ import header720x720 from "./header720x720.png";
 import hero from "./hero.svg";
 import code from "./code.svg";
 import branch from "./branch.svg";
-import git from "./git.svg";
-import javascript from "./javascript.svg";
-import bootstrap from "./bootstrap.svg";
-import tailwind from "./tailwind.svg";
-import strapi from "./strapi.svg";
-import nextjs from "./nextjs.svg";
-import figma from "./figma.svg";
+// skills
+import bootstrap from "./skills/bootstrap.svg";
+import css from "./skills/css.svg";
+import figma from "./skills/figma.svg";
+import git from "./skills/git.svg";
+import html from "./skills/html.svg";
+import javascript from "./skills/javascript.svg";
+import nextjs from "./skills/nextjs.svg";
+import npm from "./skills/npm.svg";
+import postman from "./skills/postman.svg";
+import react from "./skills/react.svg";
+import strapi from "./skills/strapi.svg";
+import tailwind from "./skills/tailwind.svg";
+import vsc from "./skills/vsc.svg";
+
+
+
 import eye_open from "./eye_open.svg";
 import eye_closed from "./eye_closed.svg";
+import meter60 from "./meter60.svg";
 
 
 import arrow1 from "./arrow1.svg";
@@ -69,13 +80,21 @@ export {
   menu,
   code,
   branch,
-  git,
-  javascript,
+  // skill
   bootstrap,
-  nextjs,
+  css,
   figma,
-  tailwind,
+  git,
+  html,
+  javascript,
+  nextjs,
+  npm,
+  postman,
+  react,
   strapi,
+  tailwind,
+  vsc,
+
   eye_open,
   eye_closed,
 };

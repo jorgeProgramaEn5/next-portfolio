@@ -31,7 +31,7 @@ export function ContactEmailjs() {
     };
   
     return (
-      <section className='flex justify-center items-center w-full bg-primary-100 pt-[60px] pb-[40px] md:pb-[60px]' id='contact'>
+      <section className=' flex justify-center items-center w-full  pt-[60px] pb-[40px] md:pb-[60px]' id='contact'>
         <div className=' container m-auto flex justify-center items-center'>
           <div className=' grid grid-cols-1 md:grid-cols-2'>
             <div className='flex justify-center items-center pl-4 md:pl-0'>
@@ -40,8 +40,8 @@ export function ContactEmailjs() {
               </div>
             </div>
             
-            <div>
-              <div className='flex flex-col justify-center items-center md:items-end'>
+            <div className=' flex w-full justify-center'>
+              <div className=' rounded-3xl flex flex-col justify-center items-center md:items-end bg-primary-100 w-[90%] py-2 px-4'>
                   <h2 className='text-[18px] md:text-[35px] lg:text-[45px] md:mr-4 my-3 md:my-4'>Get In Touch</h2>
                   <form ref={form} onSubmit={sendEmail}>
                       <div className='grid grid-cols-1'>

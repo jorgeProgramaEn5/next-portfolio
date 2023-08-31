@@ -7,7 +7,7 @@ import { skills } from "../Constant/indice"
 export default function Stikers() {
     const [showSkilss, setShowSkilss] = useState(false);
   return (
-    <div onClick={() => setShowSkilss((prev)=>!prev)} className=" bg-purple-600/80 flex flex-col justify-start items-start cursor-pointer relative">
+    <div onClick={() => setShowSkilss((prev)=>!prev)} className=" flex flex-col justify-start items-start cursor-pointer relative">
         <div className=' lg:absolute bottom-0 left-0 bg-slate-100 bg-opacity-[0.95] inline-flex justify-center items-center rounded-2xl mt-6 py-1 px-4 shadow-md shadow-slate-400'>
             <div className="flex flex-row justify-center items-center opacity-[0.90]">
                 <div className="flex justify-center items-center -space-x-3">
@@ -27,7 +27,7 @@ export default function Stikers() {
                     
                 </div>
                 <div className="flex flex-col justify-center items-start ml-3 text-black">
-                    <p className="text-[20px] font-[800]">7+</p>
+                    <p className="text-[20px] font-[800]">13+</p>
                     <p className=" relative bottom-1 text-[16px]">skills</p>
                 </div>
             </div>

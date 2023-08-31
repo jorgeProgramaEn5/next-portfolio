@@ -9,7 +9,7 @@ import { Footer } from '@/Components/Footer';
 
 export default function Home() {
   return (
-    <main className=" bg-background-100 w-full overflow-hidden text-white">
+    <main className=" bg-gray-900 w-full overflow-hidden text-white">
       <div className='flex justify-center items-center w-full'>
         <div className='w-full'>
           {/* <NavBarDos /> */}

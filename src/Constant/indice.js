@@ -1,5 +1,29 @@
-import {whastapp, twitter, linkedin, project_img1, project_img2, project_img3, project_img4} from '../Assets/indice';
-import { git, javascript, bootstrap, tailwind, nextjs, strapi, figma } from '../Assets/indice';
+import {
+  whastapp, 
+  twitter, 
+  linkedin, 
+  project_img1, 
+  project_img2, 
+  project_img3, 
+  project_img4
+} from '../Assets/indice';
+
+import { 
+  bootstrap,
+  css,
+  figma,
+  git,
+  html,
+  javascript,
+  nextjs,
+  npm,
+  postman,
+  react,
+  strapi,
+  tailwind,
+  vsc, 
+} from '../Assets/indice';
+
 export const socialMedia = [
   {
     id: "social-media-1",
@@ -21,19 +45,19 @@ export const socialMedia = [
 
 export const projects = [
   {
-    title: "embici",
+    title: "Business Startup",
     description: "mensager service whith bicycle",
     link: "https://jorgeprogramaen5.github.io/embici/",
     imgUrl: project_img1
   },
   {
-    title: "eSe",
+    title: "Electricity Company",
     description: "company home page",
     link: "https://ese-next.vercel.app/",
     imgUrl: project_img2
   },
   {
-    title: "Home Page",
+    title: "Business Startup",
     description: "landing page",
     link: "https://toacuba-vercel.vercel.app/products",
     imgUrl: project_img3
@@ -42,13 +66,13 @@ export const projects = [
 
 export const projectsPersonales = [
   {
-    title: "embici",
+    title: "Business Startup",
     description: "mensager service whith bicycle",
     link: "https://jorgeprogramaen5.github.io/embici/",
     imgUrl: project_img1
   },
   {
-    title: "happiness",
+    title: "Happiness",
     description: "talk about happiness",
     link: "https://jorgeprogramaen5.github.io/mi_felicidad/",
     imgUrl: project_img4
@@ -63,7 +87,7 @@ export const projectsBussiness = [
   //   imgUrl: project_img1
   // },
   {
-    title: "eSe",
+    title: "Electricity Company",
     description: "company home page",
     link: "https://ese-next.vercel.app/",
     imgUrl: project_img2
@@ -75,8 +99,8 @@ export const projectsBussiness = [
   //   imgUrl: project_img3
   // },
   {
-    title: "Home Page",
-    description: "landing page",
+    title: "Business Startup",
+    description: "company home page",
     link: "https://toacuba-vercel.vercel.app/products",
     imgUrl: project_img3
   },
@@ -138,3 +162,84 @@ export const skills = [
     image: figma,
   },
 ];
+
+export const meterSkills = [
+  {
+    id: "0",
+    title: "HTML",
+    image: html,
+    meter: 80
+  },
+  {
+    id: "1",
+    title: "CSS",
+    image: css,
+    meter: 70
+  },
+  {
+    id: "2",
+    title: "JavaScript",
+    image: javascript,
+    meter: 50
+  },
+  {
+    id: "3",
+    title: "React",
+    image: react,
+    meter: 40
+  },
+  {
+    id: "4",
+    title: "NextJs",
+    image: nextjs,
+    meter: 60
+  },
+  {
+    id: "5",
+    title: "Bootstrap",
+    image: bootstrap,
+    meter: 30
+  },
+  {
+    id: "6",
+    title: "Tailwinds",
+    image: tailwind,
+    meter: 60
+  },
+  {
+    id: "7",
+    title: "Figma",
+    image: figma,
+    meter: 20
+  },
+  {
+    id: "8",
+    title: "Strapi",
+    image: strapi,
+    meter: 80
+  },
+  {
+    id: "9",
+    title: "Git",
+    image: git,
+    meter: 80
+  },
+  {
+    id: "10",
+    title: "VS Code",
+    image: vsc,
+    meter: 50
+  },
+  {
+    id: "11",
+    title: "Postman",
+    image: postman,
+    meter: 30
+  },
+  {
+    id: "12",
+    title: "Npm",
+    image: npm,
+    meter: 30
+  },
+]

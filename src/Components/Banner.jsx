@@ -63,7 +63,7 @@ export const Banner = ()=>{
       <div className=' absolute top-[500px] -left-[200px] w-[400px] h-[400px] rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-indigo-500 blur-2xl opacity-10 z-0'></div>
   {/* text + image */}
       <div className=' relative z-[100] flex w-full justify-center items-center px-4 sm:px-8 md:px-10 lg:px-24'>
-        <div className='grid gap-8 md:gap-2 lg:gap-8 grid-cols-1 md:grid-cols-6 lg:grid-cols-12 '>
+        <div className='grid gap-20 md:gap-2 lg:gap-8 grid-cols-1 md:grid-cols-6 lg:grid-cols-12 '>
     {/* text */}
             <div className='col-span-1 md:col-span-3 lg:col-span-8 flex flex-col justify-start items-start'>
                 <div className='text-start'>
@@ -110,8 +110,8 @@ export const Banner = ()=>{
               {/* shadown */}
                 <div className=' absolute top-0 left-[300px] lg:-left-0 w-0 h-0 lg:w-[500px] lg:h-[500px] rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-indigo-500 blur-2xl opacity-10 z-0'></div>
 
-              <div className='flex flex-col sm:flex-row md:flex-col justify-around items-center'>
-                  <div className='relative max-w-[380px] sm:w-[310px] md:w-[360px] lg:w-[420px]'>
+              <div className=' flex flex-col sm:flex-row md:flex-col justify-around items-center'>
+                  <div className='relative max-w-[380px] sm:max-w-[310px] md:max-w-[360px] lg:max-w-[420px]'>
                     <Image src={hero} alt="Headder"/>
                     <div className=' absolute flex justify-center items-center w-[45px] md:w-[55px] h-[45px] md:h-[55px] top-0 left-0 bg-primary-100 rounded-lg p-2.5'>
                         <Image src={code} alt="tools"/>
@@ -136,7 +136,7 @@ export const Banner = ()=>{
                   </div> */}
 
     {/* stiker de skills */}
-                  <div className=' bg-white flex justify-start sm:justify-center md:justify-start w-full select-none'>
+                  <div className='flex justify-start sm:justify-center md:justify-start w-full select-none'>
                     <Stikers/>
                   </div>
                 </div>

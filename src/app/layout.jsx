@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
       />
 
       </head>
-      <body className={`${playDisplay.className} bg-background-100 text-colortext-100`}>
+      <body className={`${playDisplay.className} bg-gray-900 text-colortext-100`}>
         <header>
           <NavBarDos />
         </header>
