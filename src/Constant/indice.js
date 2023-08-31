@@ -3,6 +3,7 @@ import {
   twitter, 
   linkedin, 
   gmail, 
+  github, 
   project_img1, 
   project_img2, 
   project_img3, 
@@ -29,22 +30,32 @@ export const socialMedia = [
   {
     id: "0",
     icon: whatsapp,
+    title: 'whatsapp',
     link: "https://wa.me/+5359106524?text=Hola%20Jorge!%20Necesitamos%20de%20tus%20servicios",
   },
   {
     id: "1",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    title: 'linkedin',
+    link: "https://www.linkedin.com/in/jorge-estrada-machado-386bb121b",
   },
   {
-    id: "2",
+    id: "3",
     icon: twitter,
-    link: "https://www.twitter.com/",
+    title: 'twitter',
+    link: "https://twitter.com/JorgitoEs2018",
   },
   {
-    id: "2",
+    id: "4",
     icon: gmail,
-    link: "https://www.gmail.com/",
+    title: 'gmail',
+    link: "https://mail.google.com/mail/jorgitoestrada2924",
+  },
+  {
+    id: "5",
+    icon: github,
+    title: 'github',
+    link: "https://github.com/jorgeProgramaEn5",
   },
 
 ];

@@ -3,6 +3,8 @@ import whatsapp from "./social/whatsapp.svg";
 import linkedin from "./social/linkedin.svg";
 import twitter from "./social/twitter.svg";
 import gmail from "./social/gmail.svg";
+import github from "./social/github.svg";
+// banner 
 import logo from "./logo.png";
 import logo_portafolio from "./logo_portafolio.svg";
 import rocket from "./rocket.svg";
@@ -59,6 +61,7 @@ export {
   linkedin,
   twitter,
   gmail,
+  github,
   logo,
   logo_portafolio,
   rocket,
