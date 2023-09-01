@@ -68,7 +68,7 @@ export function ContactEmailjs() {
 
                         <div className='flex flex-col px-3 py-1 items-start'>
                             <textarea className='focus:opacity-90 focus:bg-white focus:text-[#121212] w-[100%] text-white font-medium text-[14px] md:text-[18px] tracking-[0.8px] bg-white bg-opacity-10 border border-solid rounded-[20px] border-opacity-50 border-white py-[10px] md:py-[18px] px-[18px] md:px-[26px] transition-all duration-[0.5s] ease-in-out' style={{ resize: "none" }} name="message" row="6" placeholder='Message' required></textarea>
-                            <input type="submit" value={buttonText} className={`${buttonTextDesable} font-bold text-[#ffffffcb] text-right hover:text-black bg-white  bg-opacity-40 hover:opacity-90 hover:bg-white border border-solid border-opacity-50 rounded-[20px] border-white mt-2 py-4 px-[48px] cursor-pointer w-full justify-center`} onClick={()=>setButtonText("Sending...")}/>
+                            <button type="submit" value={buttonText} className={`${buttonTextDesable} font-bold text-[#ffffffcb] text-center hover:text-black bg-white  bg-opacity-40 hover:opacity-90 hover:bg-white border border-solid border-opacity-50 rounded-[20px] border-white mt-2 py-4 px-[48px] cursor-pointer w-full justify-center`} onClick={()=>setButtonText("Sending...")}>{buttonText}</button>
                             <input type="submit" value={buttonText} className={`${buttonTextEnable} font-bold text-[#ffffffcb] text-center hover:text-black bg-white  bg-opacity-10 hover:opacity-90 hover:bg-white border border-solid rounded-[20px] border-opacity-50 border-white mt-2 py-4 cursor-not-allowed w-full `} disabled/>
                         </div>
                       </div>
