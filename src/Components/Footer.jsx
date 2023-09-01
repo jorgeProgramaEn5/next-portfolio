@@ -21,8 +21,12 @@ export function Footer() {
           <p
             className=" mt-6 w-[95%] sm:w-[70%] md:w-[90%] lg:w-[50%] text-center md:text-left leading-relaxed text-gray-400"
           >
-            {`"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
-            consequuntur amet culpa cum itaque neque."`}
+            {`"If you have knowledge, let others light their candles there."`}
+          </p>
+          <p
+            className=" mt-1 w-[95%] sm:w-[70%] md:w-[90%] lg:w-[50%] text-right pr-6 leading-relaxed text-gray-400"
+          >
+            {`-Margaret Fuller`}
           </p>
         </div>
 {/* link + social media */}
