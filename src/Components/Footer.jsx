@@ -56,7 +56,7 @@ export function Footer() {
                     href={item.link}
                     rel="noreferrer"
                     target="_blank"
-                    className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                    className="text-gray-700 select-none transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
                   >
                     <span className="sr-only">{item.title}</span>
                     <div

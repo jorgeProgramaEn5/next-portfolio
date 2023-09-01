@@ -94,7 +94,7 @@ export const Banner = ()=>{
                   </div>
                 </div>
                 {/* boton wwhatsapp */}
-                <div className='w-full flex justify-start'>
+                <div className='w-full flex justify-start select-none'>
                   <a target='blank' href='https://wa.me/+5359106524?text=Hola%20Jorge!%20Necesitamos%20de%20tus%20servicios'>
                   <button className='flex flex-row justify-center items-center bg-primary-100/90 hover:bg-primary-100/60 text-2xl text-[16px] text-colortext-100 focus:ring-4 focus:outline-none focus:ring-primary-100/50 font-medium rounded-lg md:font-bold md:text-[20px] mt-[30px] md:mt-[60px] tracking-[0.8px] px-3 py-1 md:px-5 md:py-2.5'>
                     <div className='w-4 md:w-5 mr-2'>
