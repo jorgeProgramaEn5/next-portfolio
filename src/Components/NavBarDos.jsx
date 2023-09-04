@@ -74,7 +74,7 @@ export function NavBarDos() {
           onClick={()=> setToggle((prev)=>!prev)}
         />
 
-        <div className={`${toggle ? ' absolute flex items-center justify-center top-[120px] right-0 min-w-[140px] animate-wiggle rounded-2xl bg-primary-100 py-6' : 'hidden'}`}>
+        <div onClick={()=> setToggle((prev)=>!prev)} className={`${toggle ? ' absolute flex items-center justify-center top-[120px] right-0 min-w-[140px] animate-wiggle rounded-2xl bg-primary-100 py-6' : 'hidden'}`}>
             <ul className='flex items-center justify-center flex-col pl-0 m-1'>
               {navLinks.map((nav, index)=>(
               <li

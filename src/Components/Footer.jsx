@@ -38,7 +38,7 @@ export function Footer() {
                 <li key={link.id}>
                   <Link
                     className="transition  text-white hover:text-white/75"
-                    href={`#${link.id}`}
+                    href={`/${link.url}`}
                   >
                     {link.title}
                   </Link>
