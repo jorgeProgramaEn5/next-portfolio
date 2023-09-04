@@ -4,6 +4,7 @@ import {
   linkedin, 
   gmail, 
   github, 
+  telegram, 
   project_img1, 
   project_img2, 
   project_img3, 
@@ -23,7 +24,13 @@ import {
   react,
   strapi,
   tailwind,
-  vsc, 
+  vsc,
+  notion,
+  autodesk,
+  inkscape,
+  gimp, 
+  proteus, 
+  audacity, 
 } from '../Assets/indice';
 
 export const socialMedia = [
@@ -38,6 +45,11 @@ export const socialMedia = [
     icon: linkedin,
     title: 'linkedin',
     link: "https://www.linkedin.com/in/jorge-estrada-machado-386bb121b",
+  },{
+    id: "2",
+    icon: telegram,
+    title: 'telegram',
+    link: "https://t.me/Fernan2Es",
   },
   {
     id: "3",
@@ -49,7 +61,7 @@ export const socialMedia = [
     id: "4",
     icon: gmail,
     title: 'gmail',
-    link: "https://mail.google.com/mail/jorgitoestrada2924",
+    link: "https://mailto:jorgitoestrada2924@gmail.com",
   },
   {
     id: "5",
@@ -270,78 +282,114 @@ export const targetTools = [
     id: "1",
     title: "HTML",
     image: html,
-    meter: 80
+    area: 'web development'
   },
   {
     id: "2",
     title: "CSS",
     image: css,
-    meter: 70
+    area: 'web development'
   },
   {
     id: "3",
     title: "JavaScript",
     image: javascript,
-    meter: 50
+    area: 'web development'
   },
   {
     id: "4",
     title: "React",
     image: react,
-    meter: 40
+    area: 'web development'
   },
   {
     id: "5",
     title: "NextJs",
     image: nextjs,
-    meter: 60
+    area: 'web development'
   },
   {
     id: "6",
     title: "Bootstrap",
     image: bootstrap,
-    meter: 30
+    area: 'web development'
   },
   {
     id: "7",
     title: "Tailwinds",
     image: tailwind,
-    meter: 60
+    area: 'web development'
   },
   {
     id: "8",
     title: "Figma",
     image: figma,
-    meter: 20
+    area: 'web development'
   },
   {
     id: "9",
     title: "Strapi",
     image: strapi,
-    meter: 80
+    area: 'web development'
   },
   {
     id: "10",
     title: "Git",
     image: git,
-    meter: 80
+    area: 'web development'
   },
   {
     id: "11",
     title: "VS Code",
     image: vsc,
-    meter: 50
+    area: 'web development'
   },
   {
     id: "12",
     title: "Postman",
     image: postman,
-    meter: 30
+    area: 'web development'
   },
   {
     id: "13",
     title: "Npm",
     image: npm,
-    meter: 30
+    area: 'web development'
+  },
+  {
+    id: "14",
+    title: "Inkscape",
+    image: inkscape,
+    area: 'drawing and design'
+  },
+  {
+    id: "15",
+    title: "Gimp",
+    image: gimp,
+    area: 'edit images'
+  },
+  {
+    id: "16",
+    title: "Notion",
+    image: notion,
+    area: 'time management'
+  },
+  {
+    id: "17",
+    title: "Autocad",
+    image: autodesk,
+    area: 'electrical engineering'
+  },
+  {
+    id: "18",
+    title: "Proteus",
+    image: proteus,
+    area: 'electrical engineering'
+  },
+  {
+    id: "19",
+    title: "Audacity",
+    image: audacity,
+    area: 'edit music'
   },
 ];

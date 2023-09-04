@@ -16,6 +16,7 @@ export default function HomeSkills() {
                             num={item.id} 
                             image={item.image}
                             name={item.title}
+                            area={item.area}
                         />
                     ))
                 }

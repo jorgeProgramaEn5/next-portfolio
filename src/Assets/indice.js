@@ -4,6 +4,7 @@ import linkedin from "./social/linkedin.svg";
 import twitter from "./social/twitter.svg";
 import gmail from "./social/gmail.svg";
 import github from "./social/github.svg";
+import telegram from "./social/telegram.svg";
 // banner 
 import logo from "./logo.png";
 import logo_portafolio from "./logo_portafolio.svg";
@@ -26,6 +27,12 @@ import react from "./skills/react.svg";
 import strapi from "./skills/strapi.svg";
 import tailwind from "./skills/tailwind.svg";
 import vsc from "./skills/vsc.svg";
+import autodesk from "./skills/autodesk.svg";
+import gimp from "./skills/gimp.svg";
+import notion from "./skills/notion.svg";
+import inkscape from "./skills/inkscape.svg";
+import proteus from "./skills/proteus.svg";
+import audacity from "./skills/audacity.svg";
 
 
 
@@ -62,6 +69,7 @@ export {
   twitter,
   gmail,
   github,
+  telegram,
   logo,
   logo_portafolio,
   rocket,
@@ -100,6 +108,12 @@ export {
   strapi,
   tailwind,
   vsc,
+  notion,
+  autodesk,
+  inkscape,
+  gimp,
+  proteus,
+  audacity,
 
   eye_open,
   eye_closed,
