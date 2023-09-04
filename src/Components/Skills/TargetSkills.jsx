@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function TargetSkills({num, image, name}) {
   return (
-    <div className=' shadow-lg w-[200px] min-h-[100px] overflow-hidden flex flex-col justify-center items-center rounded-2xl bg-gradient-to-b  from-stone-700 to-stone-900 text-white pt-2 pb-4 px-4 mt-6'>
+    <div className=' shadow-lg w-[200px] min-h-[100px] overflow-hidden flex flex-col justify-center items-center rounded-2xl bg-slate-100/20 text-white pt-2 pb-4 px-4 mt-6'>
         <div className='flex w-full justify-end relative'>
             <p className=' text-[4rem] flex absolute -top-6 left-0'>{num}</p>
             <div className='w-[80px] h-[80px] rounded-2xl p-2 '>
