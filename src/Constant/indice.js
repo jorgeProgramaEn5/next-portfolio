@@ -127,18 +127,22 @@ export const navLinks = [
   {
     id: "home",
     title: "Home",
+    url: "/"
   },
   {
     id: "skills",
     title: "Skills",
+    url: "skills"
   },
   {
     id: "projects",
     title: "Projects",
+    url: "#projects"
   },
   {
     id: "contact",
     title: "Contact",
+    url: "#contact"
   },
 ];
 
@@ -182,81 +186,162 @@ export const skills = [
 
 export const meterSkills = [
   {
-    id: "0",
+    id: "1",
     title: "HTML",
     image: html,
     meter: 80
   },
   {
-    id: "1",
+    id: "2",
     title: "CSS",
     image: css,
     meter: 70
   },
   {
-    id: "2",
+    id: "3",
     title: "JavaScript",
     image: javascript,
     meter: 50
   },
   {
-    id: "3",
+    id: "4",
     title: "React",
     image: react,
     meter: 40
   },
   {
-    id: "4",
+    id: "5",
     title: "NextJs",
     image: nextjs,
     meter: 60
   },
   {
-    id: "5",
+    id: "6",
     title: "Bootstrap",
     image: bootstrap,
     meter: 30
   },
   {
-    id: "6",
+    id: "7",
     title: "Tailwinds",
     image: tailwind,
     meter: 60
   },
   {
-    id: "7",
+    id: "8",
     title: "Figma",
     image: figma,
     meter: 20
   },
   {
-    id: "8",
+    id: "9",
     title: "Strapi",
     image: strapi,
     meter: 80
   },
   {
-    id: "9",
+    id: "10",
     title: "Git",
     image: git,
     meter: 80
   },
   {
-    id: "10",
+    id: "11",
     title: "VS Code",
     image: vsc,
     meter: 50
   },
   {
-    id: "11",
+    id: "12",
     title: "Postman",
     image: postman,
     meter: 30
   },
   {
-    id: "12",
+    id: "13",
     title: "Npm",
     image: npm,
     meter: 30
   },
 ]
+
+export const targetTools = [
+  {
+    id: "1",
+    title: "HTML",
+    image: html,
+    meter: 80
+  },
+  {
+    id: "2",
+    title: "CSS",
+    image: css,
+    meter: 70
+  },
+  {
+    id: "3",
+    title: "JavaScript",
+    image: javascript,
+    meter: 50
+  },
+  {
+    id: "4",
+    title: "React",
+    image: react,
+    meter: 40
+  },
+  {
+    id: "5",
+    title: "NextJs",
+    image: nextjs,
+    meter: 60
+  },
+  {
+    id: "6",
+    title: "Bootstrap",
+    image: bootstrap,
+    meter: 30
+  },
+  {
+    id: "7",
+    title: "Tailwinds",
+    image: tailwind,
+    meter: 60
+  },
+  {
+    id: "8",
+    title: "Figma",
+    image: figma,
+    meter: 20
+  },
+  {
+    id: "9",
+    title: "Strapi",
+    image: strapi,
+    meter: 80
+  },
+  {
+    id: "10",
+    title: "Git",
+    image: git,
+    meter: 80
+  },
+  {
+    id: "11",
+    title: "VS Code",
+    image: vsc,
+    meter: 50
+  },
+  {
+    id: "12",
+    title: "Postman",
+    image: postman,
+    meter: 30
+  },
+  {
+    id: "13",
+    title: "Npm",
+    image: npm,
+    meter: 30
+  },
+];

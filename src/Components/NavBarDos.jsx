@@ -55,13 +55,13 @@ export function NavBarDos() {
               key={nav.id}
               className= {`${index === navLinks.length -1 ? "mr-0" : "mr-6"}`}
             >
-              <a 
-                href={`#${nav.id}`}
+              <Link 
+                href={`/${nav.url}`}
                 className={` text-xl ${activeLink === nav.id ? ' opacity-40' : ''}` } 
                 onClick={()=>onUpdateActiveLink(`${nav.id}`)}
               >
                 {nav.title}
-              </a>
+              </Link>
             </li>
           ))}
       </ul>
@@ -81,19 +81,18 @@ export function NavBarDos() {
                 key={nav.id}
                 className= {`${index === navLinks.length -1 ? "mr-0" : "mb-4"} text-white text-base`}
               >
-                <a 
-                  href={`#${nav.id}`}
+                <Link 
+                  href={`/${nav.url}`}
                   className={activeLink === nav.id ? 'opacity-40' : '' } 
                   onClick={()=>onUpdateActiveLink(`${nav.id}`)}
                 >
                   {nav.title}
-                </a>
+                </Link>
               </li>
               ))}
             </ul>
         </div>
       </div>
-
     </nav>                
   )
 }
