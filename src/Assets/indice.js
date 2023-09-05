@@ -33,6 +33,8 @@ import notion from "./skills/notion.svg";
 import inkscape from "./skills/inkscape.svg";
 import proteus from "./skills/proteus.svg";
 import audacity from "./skills/audacity.svg";
+import gitbash from "./skills/gitbash.svg";
+import prisma from "./skills/prisma.svg";
 
 
 
@@ -114,6 +116,8 @@ export {
   gimp,
   proteus,
   audacity,
+  gitbash,
+  prisma,
 
   eye_open,
   eye_closed,

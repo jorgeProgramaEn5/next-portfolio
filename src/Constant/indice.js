@@ -31,6 +31,8 @@ import {
   gimp, 
   proteus, 
   audacity, 
+  gitbash, 
+  prisma, 
 } from '../Assets/indice';
 
 export const socialMedia = [
@@ -391,5 +393,17 @@ export const targetTools = [
     title: "Audacity",
     image: audacity,
     area: 'edit music'
+  },
+  {
+    id: "20",
+    title: "Terminal",
+    image: gitbash,
+    area: 'web development'
+  },
+  {
+    id: "21",
+    title: "Prisma",
+    image: prisma,
+    area: 'web development'
   },
 ];

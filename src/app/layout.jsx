@@ -16,7 +16,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         
-
+      {/* <meta property="og:image" content="<generated>" />
+      <meta property="og:image:type" content="<generated>" />
+      <meta property="og:image:width" content="<generated>" />
+      <meta property="og:image:height" content="<generated>" /> */}
+      
       <link 
         rel="icon" 
         href="/favicon.ico" 
